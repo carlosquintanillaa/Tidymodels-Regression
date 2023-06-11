@@ -1,5 +1,5 @@
 
-# Importar libraries
+# Importar librariea
 
 library(tidyverse)
 library(skimr)
