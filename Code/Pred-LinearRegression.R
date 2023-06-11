@@ -1,7 +1,7 @@
 library(tidyverse)
 library(tidymodels)
 
-# Read data set, create partitions, define metrics.
+# Read data set, create partitions, define metrics
 
 diamonds <- read_csv("diamantes.csv") 
 
