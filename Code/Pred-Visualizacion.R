@@ -58,7 +58,7 @@ ggplot(diamonds,aes(x=clarity,y=price,fill=clarity)) +
   geom_boxplot()
 
 
-# Histogramas de Precio por Cut, Color & Clarity (Small Multiples)
+# Histogramas de Precio por Cut, Color & Clarity 
 
 ggplot(diamonds,aes(x=price,fill=cut)) + 
   geom_histogram() +

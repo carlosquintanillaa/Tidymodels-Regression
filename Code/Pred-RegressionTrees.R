@@ -17,7 +17,7 @@ diamonds_split <- initial_split(diamonds, prop = 0.80, strata="price")
 diamonds_train <- training(diamonds_split)
 diamonds_test <- testing(diamonds_split)
 
-folds <- rsample::vfold_cv(diamonds_train, v = 10, strata="price")
+folds <- vfold_cv(diamonds_train, v = 10, strata="price")
 
 metric <- metric_set(rmse,rsq,mae)
 
